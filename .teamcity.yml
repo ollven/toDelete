@@ -4,3 +4,11 @@ jobs:
     steps:
       - type: maven
         goals: clean test
+    repositories:
+      - https://github.com/ollven/ollven_kotlin-gradle:
+          enabled: true
+  Job2:
+    name: Job 2
+    repositories:
+      - https://github.com/ollven/ollven_kotlin-gradle:
+          enabled: true
